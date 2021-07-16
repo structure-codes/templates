@@ -1,0 +1,18 @@
+[
+  {
+    "name": "alex-oser-structure.tree",
+    "url": "https://github.com/alex-oser/structure",
+    "tags": [
+      "react",
+      "firebase"
+    ]
+  },
+  {
+    "name": "cra-redux.tree",
+    "url": "https://github.com/reduxjs/cra-template-redux/tree/master/template",
+    "tags": [
+      "react",
+      "redux"
+    ]
+  }
+]
