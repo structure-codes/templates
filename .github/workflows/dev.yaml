@@ -1,0 +1,32 @@
+name: DEV
+
+on:
+  workflow_dispatch:
+  push:
+env:
+  GCLOUD_PROJECT: structure-codes
+jobs:
+  build-test-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Generate new templates.json
+        run: node ./scripts/genList.js
+      - name: If any new or changed template metadata, push it back to the repo
+        id: check_changes
+        run: |
+          diff=$(git diff templates.json)
+          # If there are changes, run these steps
+          if [ ! -z "$diff" ]; then
+            echo "::set-output name=should_push::true"
+            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git config --local user.name "github-actions[bot]"
+            git add templates.json
+            git commit -m "Automatically updating templates.json"
+          fi
+      - name: Push changes
+        if: ${{ steps.check_changes.outputs.should_push == 'true' }}
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+

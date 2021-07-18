@@ -1,16 +1,16 @@
 # https://github.com/alex-oser/structure
 # react
 # firebase
-├── client/
-|	├── public/
-|	|	└── templates/
-|	└── src/
-|		├── AboutView/
-|		├── App/
+├── client
+|	├── public
+|	|	└── templates
+|	└── src
+|		├── AboutView
+|		├── App
 |		|	└── Header
-|		├── HomeView/
-|		|	├── CodePanel/
-|		|	├── Dropdown/
+|		├── HomeView
+|		|	├── CodePanel
+|		|	├── Dropdown
 |		|	├── ModelPanel
 |		|	└── SettingsPanel
 |		└── WelcomeModal
