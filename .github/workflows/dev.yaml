@@ -19,7 +19,7 @@ jobs:
         run: |
           diff=$(git diff templates.json)
           # If there are changes, run these steps
-          if [ ! -z $diff ]; then
+          if [ ! -z "$diff" ]; then
             git add templates.json
             git commit -m "Automatically updating templates.json"
             git push
