@@ -25,5 +25,5 @@ jobs:
             git commit -m "Automatically updating templates.json"
           fi
       - name: Push changes
-        if: ${{ should_push == "true" }}
+        if: ${{ steps.run_tests.outputs.should_push == "true" }}
         uses: ad-m/github-push-action@master
