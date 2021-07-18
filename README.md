@@ -26,4 +26,4 @@ This can be generated with the [tree](https://linux.die.net/man/1/tree) command 
 
 Any and all submissions are welcome, just make sure to follow the below guidelines for creating templates.
 
-*Guidelines coming soonTM :)*
+The `scripts/genList.js` script will run on every commit to generate `templates.json`. If a change is detected in this file then it will push back to the repo with the changes. *This is the only way `templates.json` should be updated.*
