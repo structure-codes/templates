@@ -1,0 +1,18 @@
+# https://github.com/Hacksore/youcog
+# chrome-extension
+# javascript
+├── .github/
+│	└── workflows/
+│		└── build-and-publish.yaml
+├── LICENSE
+├── PRIVACY.md
+├── README.md
+├── css/
+│	└── style.css
+├── icons/
+│	└── icon128.png
+├── js/
+│	├── background.js
+│	└── content.js
+├── manifest.json
+└── popup.html
