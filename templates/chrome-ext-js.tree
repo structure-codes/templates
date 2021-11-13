@@ -1,17 +1,17 @@
-# https://github.com/Hacksore/youcog
-# chrome-extension
-# javascript
-├── .github/
-│	└── workflows/
+// https://github.com/Hacksore/youcog
+// chrome-extension
+// javascript
+├── .github
+│	└── workflows
 │		└── build-and-publish.yaml
 ├── LICENSE
 ├── PRIVACY.md
 ├── README.md
-├── css/
+├── css
 │	└── style.css
-├── icons/
+├── icons
 │	└── icon128.png
-├── js/
+├── js
 │	├── background.js
 │	└── content.js
 ├── manifest.json
