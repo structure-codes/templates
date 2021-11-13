@@ -1,23 +1,23 @@
-# https://github.com/reduxjs/cra-template-redux/tree/master/template
-# react
-# redux
+// https://github.com/reduxjs/cra-template-redux/tree/master/template
+// react
+// redux
 ├── README.md
-├── gitignore
-├── public/
+├── .gitignore
+├── public
 │	├── favicon.ico
 │	├── index.html
 │	├── logo192.png
 │	├── logo512.png
 │	├── manifest.json
 │	└── robots.txt
-└── src/
+└── src
 	├── App.css
 	├── App.js
 	├── App.test.js
-	├── app/
+	├── app
 	│	└── store.js
-	├── features/
-	│	└── counter/
+	├── features
+	│	└── counter
 	│		├── Counter.js
 	│		├── Counter.module.css
 	│		├── counterAPI.js

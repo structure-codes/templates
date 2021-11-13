@@ -1,87 +1,87 @@
-# https://github.com/react-boilerplate/react-boilerplate
-# react
-├── app/
-│	├── components/
-│	│	├── A/
-│	│	│	└── tests/
-│	│	├── Button/
-│	│	│	└── tests/
-│	│	├── Footer/
-│	│	│	└── tests/
-│	│	├── H1/
-│	│	│	└── tests/
-│	│	├── H2/
-│	│	│	└── tests/
-│	│	├── H3/
-│	│	│	└── tests/
-│	│	├── Header/
-│	│	│	└── tests/
-│	│	├── Img/
-│	│	│	└── tests/
-│	│	├── IssueIcon/
-│	│	│	└── tests/
-│	│	├── List/
-│	│	│	└── tests/
-│	│	├── ListItem/
-│	│	│	└── tests/
-│	│	├── LoadingIndicator/
-│	│	│	└── tests/
-│	│	├── ReposList/
-│	│	│	└── tests/
-│	│	├── Toggle/
-│	│	│	└── tests/
-│	│	└── ToggleOption/
-│	│		└── tests/
-│	├── containers/
-│	│	├── App/
-│	│	│	└── tests/
-│	│	├── FeaturePage/
-│	│	│	└── tests/
-│	│	├── HomePage/
-│	│	│	└── tests/
-│	│	├── LanguageProvider/
-│	│	│	└── tests/
-│	│	├── LocaleToggle/
-│	│	│	└── tests/
-│	│	├── NotFoundPage/
-│	│	│	└── tests/
-│	│	└── RepoListItem/
-│	│		└── tests/
-│	├── images/
-│	├── tests/
-│	├── translations/
-│	└── utils/
-│		└── tests/
-├── docs/
-│	├── css/
-│	├── forks/
-│	├── general/
-│	├── js/
-│	├── maintenance/
-│	└── testing/
-├── internals/
-│	├── generators/
-│	│	├── component/
-│	│	├── container/
-│	│	├── language/
-│	│	└── utils/
-│	├── mocks/
-│	├── scripts/
-│	│	└── helpers/
-│	├── templates/
-│	│	├── containers/
-│	│	│	├── App/
-│	│	│	│	└── tests/
-│	│	│	├── HomePage/
-│	│	│	│	└── tests/
-│	│	│	├── LanguageProvider/
-│	│	│	└── NotFoundPage/
-│	│	│		└── tests/
-│	│	├── tests/
-│	│	├── translations/
-│	│	└── utils/
-│	│		└── tests/
-│	├── testing/
-│	└── webpack/
-└── server/
-	└── middlewares/
+// https://github.com/react-boilerplate/react-boilerplate
+// react
+├── app
+│	├── components
+│	│	├── A
+│	│	│	└── tests
+│	│	├── Button
+│	│	│	└── tests
+│	│	├── Footer
+│	│	│	└── tests
+│	│	├── H1
+│	│	│	└── tests
+│	│	├── H2
+│	│	│	└── tests
+│	│	├── H3
+│	│	│	└── tests
+│	│	├── Header
+│	│	│	└── tests
+│	│	├── Img
+│	│	│	└── tests
+│	│	├── IssueIcon
+│	│	│	└── tests
+│	│	├── List
+│	│	│	└── tests
+│	│	├── ListItem
+│	│	│	└── tests
+│	│	├── LoadingIndicator
+│	│	│	└── tests
+│	│	├── ReposList
+│	│	│	└── tests
+│	│	├── Toggle
+│	│	│	└── tests
+│	│	└── ToggleOption
+│	│		└── tests
+│	├── containers
+│	│	├── App
+│	│	│	└── tests
+│	│	├── FeaturePage
+│	│	│	└── tests
+│	│	├── HomePage
+│	│	│	└── tests
+│	│	├── LanguageProvider
+│	│	│	└── tests
+│	│	├── LocaleToggle
+│	│	│	└── tests
+│	│	├── NotFoundPage
+│	│	│	└── tests
+│	│	└── RepoListItem
+│	│		└── tests
+│	├── images
+│	├── tests
+│	├── translations
+│	└── utils
+│		└── tests
+├── docs
+│	├── css
+│	├── forks
+│	├── general
+│	├── js
+│	├── maintenance
+│	└── testing
+├── internals
+│	├── generators
+│	│	├── component
+│	│	├── container
+│	│	├── language
+│	│	└── utils
+│	├── mocks
+│	├── scripts
+│	│	└── helpers
+│	├── templates
+│	│	├── containers
+│	│	│	├── App
+│	│	│	│	└── tests
+│	│	│	├── HomePage
+│	│	│	│	└── tests
+│	│	│	├── LanguageProvider
+│	│	│	└── NotFoundPage
+│	│	│		└── tests
+│	│	├── tests
+│	│	├── translations
+│	│	└── utils
+│	│		└── tests
+│	├── testing
+│	└── webpack
+└── server
+	└── middlewares

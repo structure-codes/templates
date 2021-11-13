@@ -1,0 +1,22 @@
+// https://github.com/structure-codes/structure
+// react
+// firebase
+├── .firebaserc
+├── .github
+│  └── workflows
+├── api
+│  ├── dist
+│  └── src
+├── firebase.json
+├── public
+├── src
+│  ├── AboutView
+│  ├── App
+│  │  └── Header
+│  ├── HomeView
+│  │  ├── CodePanel
+│  │  ├── Dropdown
+│  │  ├── ModelPanel
+│  │  └── SettingsPanel
+│  └── WelcomeModal
+└── tsconfig.json

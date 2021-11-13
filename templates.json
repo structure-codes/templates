@@ -1,10 +1,19 @@
 [
   {
-    "name": "alex-oser-structure.tree",
-    "url": "https://github.com/alex-oser/structure",
+    "name": "AmruthPillai-Reactive-Resume.tree",
+    "url": "https://github.com/AmruthPillai/Reactive-Resume",
     "tags": [
       "react",
-      "firebase"
+      "gatsby"
+    ]
+  },
+  {
+    "name": "alex-oser-portfolio.tree",
+    "url": "https://github.com/alex-oser/portfolio",
+    "tags": [
+      "gatsby",
+      "react",
+      "portfolio"
     ]
   },
   {
@@ -16,11 +25,26 @@
     ]
   },
   {
-    "name": "test.tree",
-    "url": "https://github.com/alex-oser/structure",
+    "name": "react-boilerplate.tree",
+    "url": "https://github.com/react-boilerplate/react-boilerplate",
+    "tags": [
+      "react"
+    ]
+  },
+  {
+    "name": "structure-codes-structure.tree",
+    "url": "https://github.com/structure-codes/structure",
     "tags": [
       "react",
       "firebase"
+    ]
+  },
+  {
+    "name": "structure-codes-vscode-tree-language.tree",
+    "url": "https://github.com/structure-codes/vscode-tree-language",
+    "tags": [
+      "react",
+      "vscode"
     ]
   }
 ]

@@ -1,0 +1,15 @@
+// https://github.com/structure-codes/vscode-tree-language
+// react
+// vscode
+├── .github
+│  └── workflows
+├── .vscode
+├── dist
+├── images
+├── scripts
+├── src
+│  ├── __tests__
+│  │  └── trees
+│  ├── providers
+│  └── types
+└── syntaxes

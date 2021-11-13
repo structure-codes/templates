@@ -1,25 +1,25 @@
-# https://github.com/alex-oser/portfolio
-# gatsby
-# react
-# portfolio
-├── blog/
-├── projects/
-│	├── allchat/
-│	├── niftybillboard/
-│	├── portfolio/
-│	├── react-grid-select/
-│	├── sayhappy/
-│	├── streampoll/
-│	└── structure/
-├── snippets/
-│	├── update-mac-address/
-│	└── why-i-gcap/
-└── src/
-	├── components/
-	│	├── blog/
-	│	├── projects/
-	│	├── snippets/
-	│	└── socials/
-	├── fonts/
-	├── images/
-	└── pages/
+// https://github.com/alex-oser/portfolio
+// gatsby
+// react
+// portfolio
+├── blog
+├── projects
+│	├── allchat
+│	├── niftybillboard
+│	├── portfolio
+│	├── react-grid-select
+│	├── sayhappy
+│	├── streampoll
+│	└── structure
+├── snippets
+│	├── update-mac-address
+│	└── why-i-gcap
+└── src
+	├── components
+	│	├── blog
+	│	├── projects
+	│	├── snippets
+	│	└── socials
+	├── fonts
+	├── images
+	└── pages

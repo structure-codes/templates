@@ -6,6 +6,8 @@ const directoryPath = path.join(__dirname, "../templates");
 const readFile = util.promisify(fs.readFile);
 const readdir = util.promisify(fs.readdir);
 const writeFile = util.promisify(fs.writeFile);
+const commentIndicator = "//";
+const commentRegex = new RegExp(`^${commentIndicator}`);
 
 (async () => {
   try {
@@ -16,18 +18,18 @@ const writeFile = util.promisify(fs.writeFile);
         "utf8"
       );
       const lines = data.split("\n");
-      const lastTagIndex = lines.findIndex((line) => !line.startsWith("#"));
+      const lastTagIndex = lines.findIndex((line) => !line.startsWith(commentIndicator));
       // If there are no tags
       if (lastTagIndex === 0) return { name: file };
       // Get the lines that are tags
       const tagLines = lines.slice(0, lastTagIndex);
-      const urlIndex = tagLines.findIndex((line) => line.match(/^# https?:\/\//));
+      const urlIndex = tagLines.findIndex((line) => line.match(/^\/\/ https?:\/\//));
       const url =
         urlIndex > -1
-          ? tagLines[urlIndex].split("#")[1].trim()
+          ? tagLines[urlIndex].split(commentRegex)[1].trim()
           : null;
       if (urlIndex > -1) tagLines.splice(urlIndex, 1);
-      const tags = tagLines.map((line) => line.split("#")[1].trim());
+      const tags = tagLines.map((line) => line.split(commentRegex)[1].trim());
       return ({
         name: file,
         url,
