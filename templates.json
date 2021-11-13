@@ -17,7 +17,12 @@
     ]
   },
   {
-    "name": "chrome-ext-js.tree"
+    "name": "chrome-ext-js.tree",
+    "url": "https://github.com/Hacksore/youcog",
+    "tags": [
+      "chrome-extension",
+      "javascript"
+    ]
   },
   {
     "name": "cra-redux.tree",
