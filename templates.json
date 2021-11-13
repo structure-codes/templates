@@ -2,8 +2,6 @@
   {
     "name": "AmruthPillai-Reactive-Resume.tree",
     "url": "https://github.com/AmruthPillai/Reactive-Resume",
-<<<<<<< HEAD
-=======
     "tags": [
       "react",
       "gatsby"
@@ -19,30 +17,7 @@
     ]
   },
   {
-    "name": "alex-oser-structure.tree",
-    "url": "https://github.com/alex-oser/structure",
->>>>>>> 8103a56d0be681101e08509ea74498d293e10827
-    "tags": [
-      "react",
-      "gatsby"
-    ]
-  },
-  {
-    "name": "alex-oser-portfolio.tree",
-    "url": "https://github.com/alex-oser/portfolio",
-    "tags": [
-      "gatsby",
-      "react",
-      "portfolio"
-    ]
-  },
-  {
-    "name": "chrome-ext-js.tree",
-    "url": "https://github.com/Hacksore/youcog",
-    "tags": [
-      "chrome-extension",
-      "javascript"
-    ]
+    "name": "chrome-ext-js.tree"
   },
   {
     "name": "cra-redux.tree",
@@ -55,7 +30,6 @@
   {
     "name": "react-boilerplate.tree",
     "url": "https://github.com/react-boilerplate/react-boilerplate",
-<<<<<<< HEAD
     "tags": [
       "react"
     ]
@@ -63,10 +37,9 @@
   {
     "name": "structure-codes-structure.tree",
     "url": "https://github.com/structure-codes/structure",
-=======
->>>>>>> 8103a56d0be681101e08509ea74498d293e10827
     "tags": [
-      "react"
+      "react",
+      "firebase"
     ]
   },
   {
