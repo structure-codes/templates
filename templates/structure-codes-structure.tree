@@ -3,20 +3,20 @@
 // firebase
 ├── .firebaserc
 ├── .github
-│  └── workflows
+│ └── workflows
 ├── api
-│  ├── dist
-│  └── src
+│ ├── dist
+│ └── src
 ├── firebase.json
 ├── public
 ├── src
-│  ├── AboutView
-│  ├── App
-│  │  └── Header
-│  ├── HomeView
-│  │  ├── CodePanel
-│  │  ├── Dropdown
-│  │  ├── ModelPanel
-│  │  └── SettingsPanel
-│  └── WelcomeModal
+│ ├── AboutView
+│ ├── App
+│ │  └── Header
+│ ├── HomeView
+│ │  ├── CodePanel
+│ │  ├── Dropdown
+│ │  ├── ModelPanel
+│ │  └── SettingsPanel
+│ └── WelcomeModal
 └── tsconfig.json

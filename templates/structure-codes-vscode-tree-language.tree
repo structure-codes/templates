@@ -2,14 +2,14 @@
 // react
 // vscode
 ├── .github
-│  └── workflows
+│ └── workflows
 ├── .vscode
 ├── dist
 ├── images
 ├── scripts
 ├── src
-│  ├── __tests__
-│  │  └── trees
-│  ├── providers
-│  └── types
+│ ├── __tests__
+│ │  └── trees
+│ ├── providers
+│ └── types
 └── syntaxes
